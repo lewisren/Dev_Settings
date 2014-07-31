@@ -1,4 +1,4 @@
-Dev_Setting
+Dev Settings
 ===========
 
 Local box settings
