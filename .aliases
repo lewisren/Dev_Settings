@@ -1,19 +1,20 @@
-# Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
+#--------------------------------------------------------------------------------------------------------
+# Navigation
+#--------------------------------------------------------------------------------------------------------
+alias ..="cd ..;ls"
+alias ...="cd ../..;ls"
+alias ....="cd ../../..;ls"
 
-# Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
+alias dl="~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+
+#--------------------------------------------------------------------------------------------------------
+# Tools 
+#--------------------------------------------------------------------------------------------------------
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

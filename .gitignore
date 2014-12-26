@@ -3,6 +3,7 @@
 
 # Folder view configuration files
 .DS_Store
+.idea/
 Desktop.ini
 
 # Thumbnail cache files
