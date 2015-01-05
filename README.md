@@ -11,5 +11,6 @@ Local box settings
 * Dropbox
 * Feedly
 * Flycut
+* Iterm2
 * Spectacle
-* Sublime
+* Sublime3
