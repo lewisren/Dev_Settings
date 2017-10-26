@@ -145,3 +145,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	email = lewisren@gmail.com
+	name = Lewis Ren
+[branch]
+	autosetuprebase = always

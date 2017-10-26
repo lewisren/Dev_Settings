@@ -1,3 +1,16 @@
+#--------------------------------------------------------------
+# CUSTOM
+#--------------------------------------------------------------
+function cls() {
+	curl "https://catalog-lookup-service-bazaar.prod.us-east-1.nexus.bazaarvoice.com/1/product/$1/$2?apikey=mumford-WLbHxbfkYMEqNW9e" | jq .
+}
+
+function tokenize() {
+	curl -H "Content-Type: application/json" -XPOST http://ucdm-facebook-chatbot.prod.us-east-1.nexus.bazaarvoice.com/tokenize -d "$1" | jq .
+}
+
+#==============================================================
+
 # Simple calculator
 function calc() {
 	local result="";
@@ -207,16 +220,6 @@ function s() {
 	fi;
 }
 
-# `a` with no arguments opens the current directory in Atom Editor, otherwise
-# opens the given location
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
-
 # `v` with no arguments opens the current directory in Vim, otherwise opens the
 # given location
 function v() {
@@ -235,12 +238,4 @@ function o() {
 	else
 		open "$@";
 	fi;
-}
-
-# `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring
-# the `.git` directory, listing directories first. The output gets piped into
-# `less` with options to preserve color and line numbers, unless the output is
-# small enough for one screen.
-function tre() {
-	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
