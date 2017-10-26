@@ -43,7 +43,7 @@
 	<key>FocusFollowsMouse</key>
 	<false/>
 	<key>FsTabDelay</key>
-	<real>1.0854166746139526</real>
+	<real>0.59843748807907104</real>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x6a-0x100000</key>
@@ -183,6 +183,8 @@
 	<integer>96</integer>
 	<key>HotkeyCode</key>
 	<integer>50</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>256</integer>
 	<key>IRMemory</key>
@@ -199,33 +201,56 @@
 	<false/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Workspace/Dev_Settings/iterm_settings</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>302</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
+	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
+	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
+	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
+	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
+	DIAIgAlRMSNAc7AAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
+	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
+	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	AAAAADoAAAAAAAAAAAAAAAAAAAFM
+	</data>
+	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
+	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
+	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
+	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	</data>
+	<key>NSTableView Supports v2 KeyBingingTable</key>
+	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>432 262 924 485 0 0 1440 878 </string>
+	<string>136 357 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>412 529 616 174 0 0 1440 878 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>630 317 606 456 0 0 2560 1417 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>112 97 796 473 0 0 1440 878 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>0 2 1440 873 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 19 1438 852 0 0 1440 878 </string>
+	<string>0 0 1440 878 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-1278 670 585 473 -1440 265 1440 878 </string>
 	<key>New Bookmarks</key>
@@ -956,6 +981,102 @@
 			<string>/Users/lewis.ren</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
+	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>2999F5C7-53F0-4EFE-997F-F7598F3B155C</string>
+	<key>NoSyncLastTipTime</key>
+	<real>527737035.98959702</real>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>488733118.11359102</real>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>477850922.60882998</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>488226888.83508098</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
+		<string>0066</string>
+		<string>0067</string>
+		<string>0068</string>
+		<string>0069</string>
+		<string>0070</string>
+		<string>0071</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -963,11 +1084,13 @@
 	<key>OpenBookmark</key>
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1015,16 +1138,20 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=22</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-12-26T17:22:22Z</date>
+	<date>2017-10-09T20:35:50Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1040,9 +1167,11 @@
 	<key>ThreeFingerEmulates</key>
 	<false/>
 	<key>TmuxDashboardLimit</key>
-	<integer>10</integer>
+	<integer>1</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1492119936</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -1063,9 +1192,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141103</string>
+	<string>3.1.beta.10</string>
 </dict>
 </plist>
