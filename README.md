@@ -5,11 +5,7 @@ Local box settings
 
 #### Applications
 * Alfred
-* Automator
-* CloudApp
-* Day-O
-* Dropbox
-* Feedly
+* Amphetamine
 * Flycut
 * Iterm2
 * Spectacle
