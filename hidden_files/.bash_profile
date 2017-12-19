@@ -2,12 +2,19 @@
 # CUSTOM
 #--------------------------------------------------------------------------------------------------------
 export PATH="$PATH:$HOME/bin";
-export PATH="$PATH:/Users/lewis.ren/Workspace/nexus-aware-ssh-tools"
+
+# User base's binary directory for Python 2.7
+export PATH="$PATH:$HOME/Library/Python/2.7/bin";
+# User base's binary directory for Python 3.6
+export PATH="$PATH:$HOME/Library/Python/3.6/bin";
+# VirtualEnv
+export WORKON_HOME=~/Workspace/Envs
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/opt/autoenv/activate.sh
+
 export MAVEN_OPTS="-Xmx1024M"
 
-source ~/.ec2/bv-nexus/setup-environment.sh
-
-# Use java 7
 j8 () {
 	export JAVA_HOME=`/usr/libexec/java_home -v '1.8*'`;
   export CURRENT_JAVA_VERSION=8;
